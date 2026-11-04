@@ -7,6 +7,7 @@ Before starting any task in this repository:
 
 These rules always apply, even without the shared instructions:
 
+- Do **NOT** alter the user's git config and, _especially_ do not alter the developer's `user.email` or `user.name` values or any other `git config` values that are likely to alter commit-contents in ways not anticipated by the developer
 - Don't push, open pull requests, publish releases, or apply infrastructure changes unless the user asks. List those steps for a person in your final report.
 - Don't edit files under `.agents/plus3it/`; they are generated and overwritten by the sync.
 
