@@ -7,6 +7,7 @@ Before starting any task in this repository:
 
 These rules always apply, even without the shared instructions:
 
+- Don't change git configuration (global, system, or repo-local), especially `user.name` and `user.email`, unless the user asks. If a commit fails because no identity is set, ask the user.
 - Don't push, open pull requests, publish releases, or apply infrastructure changes unless the user asks. List those steps for a person in your final report.
 - Don't edit files under `.agents/plus3it/`; they are generated and overwritten by the sync.
 
